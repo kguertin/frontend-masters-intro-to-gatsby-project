@@ -6,4 +6,5 @@ module.exports = {
     image:
       'https://compote.slate.com/images/f3cd8572-1590-43fa-8cc1-d43792b0c20d.jpg',
   },
+  plugins: ['gatsby-plugin-react-helmet'],
 };
