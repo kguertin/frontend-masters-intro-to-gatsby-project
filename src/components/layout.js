@@ -5,7 +5,7 @@ import { Seo } from '../components/seo.js';
 import { header, content } from '../styles/layout.module.css';
 import '../styles/global.css';
 
-export function Layout({
+export default function Layout({
   children,
   title = false,
   description = false,
